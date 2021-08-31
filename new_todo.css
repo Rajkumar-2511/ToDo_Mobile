@@ -1,0 +1,194 @@
+body{
+    font-family: "Roboto", sans-serif;
+	background-color:whitesmoke;
+}
+.container{
+    width:500px;
+    margin: auto;
+    margin-top: 0px;
+    filter: blur(6px);
+    position: relative;
+    z-index: 1;
+}
+
+i{
+    color: tomato;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.header{
+    display: flex;
+    margin-top: 50px;
+}
+
+h2{
+    color: coral;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h3{
+    color:tomato;
+    text-decoration: line-through;
+    text-decoration-style:solid red ;
+    font-size: 15px;
+}
+
+label{
+    font-weight: 400;
+}
+
+.pending-task{
+    padding-left: 15px;
+}
+
+.indvidual-card{
+    width:  200px;
+    height: 300px;
+    border: 1px solid coral;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 20px;
+    box-shadow: 4px 5px 4px lightgray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+.card-top{
+    margin-left: 40px;
+    padding-top: 2px;
+}
+
+.add-icon{
+    position: absolute;
+    bottom: 10px;
+    left: 155px;
+}
+
+.add-new-todo-container{
+    margin: auto;
+    width: 350px;
+    height: 175px;
+    border: 1px solid coral;
+    box-shadow: 5px 5px 12px darkgrey;
+    border-radius: 8px;
+    z-index: 2;
+    position: absolute;
+    top:30vh;
+    left:33vw;
+    background-color: white;
+}
+
+.add-new-todo{
+    color: tomato;
+    font-size: 25px;
+    text-align:center;
+    
+}
+
+.text-box{
+    width: 20em;
+    height: 2em;
+    border: 1px solid tomato;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 5px darkgrey;
+}
+
+.add-button{
+    margin-top: 2px;
+    background-color: tomato;
+    color:white;
+    width: 5em;
+    height: 2.5em;
+    border: 1px solid coral;
+    border-radius: 15px;
+}
+
+.add-button:hover{
+    cursor: pointer;
+}
+
+.page-links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top:5vh;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+
+    .indvidual-card{
+        width:  250px;
+        height: 380px;
+        border: 1px solid coral;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-left: 20px;
+        box-shadow: 4px 5px 4px lightgray;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        position: relative;
+    }
+
+    h2{
+        color: coral;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+    h3{
+        color:tomato;
+        text-decoration: line-through;
+        text-decoration-style:solid red ;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    label{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .pending-task{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .add-icon{
+        position: absolute;
+        bottom: 10px;
+        left: 200px;
+    }
+
+    .container{
+        margin:auto auto auto 10%;
+        width: 350px;
+        height: auto;
+
+    }
+    .add-new-todo-container{
+        width: 300px;
+        height: 175px;
+        border: 1px solid coral;
+        box-shadow: 5px 5px 12px darkgrey;
+        border-radius: 8px;
+        z-index: 2;
+        position: absolute;
+        top:30vh;
+        left:10vw;
+        background-color: white;
+    }
+
+    .text-box{
+        width: 10em;
+        height: 2em;
+        border: 1px solid tomato;
+        border-radius: 2px;
+        box-shadow: 0.5px 0.5px 5px darkgrey;
+    }
+
+}
